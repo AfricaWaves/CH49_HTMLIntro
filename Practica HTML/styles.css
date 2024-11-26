@@ -1,0 +1,98 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    margin: 1;
+    padding: 1;
+    background-color: #d785fd;
+    text-align: center;
+}
+
+h2 {
+    margin: 0.5;
+    font-size: 1.5em;
+    color: #6d2a7a;
+
+}
+
+/* Lo que se encuentra detrás del contenido */
+.app-container {
+    margin: 10px;
+    padding: 20px;
+    background-color: #a356cf;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* Estilos  para el título de cada apartado */
+.titulo {
+    font-size: 2em;
+    color: #e36be7;
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Estilo para la imagen de la app */
+.imagen {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.imagen img {
+    width: 50%;
+    height: auto;
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+/* Estilo para la fecha de lanzamiento */
+.fecha, .empresa, .descripcion, .tecnologias, .enlace {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+/* Estilos por sección */
+.fecha {
+    background-color: #ba99d4;
+}
+
+.empresa {
+    background-color: #dda2da;
+}
+
+.descripcion {
+    background-color: #9aabda;
+}
+
+.tecnologias {
+    background-color: #f0abe1;
+}
+
+.enlace {
+    background-color: #a5aaf0;
+    text-align: center;
+}
+
+/* Estilo para los enlaces */
+a {
+    color: #4b0666;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para las listas de tecnologías */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 5px 0;
+}
